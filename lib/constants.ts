@@ -67,6 +67,10 @@ export const NAVIGATION = [
   {
     name: 'Jobs',
     route: '/jobs'
+  },
+  {
+    name: 'Blog',
+    route: 'https://blog.tabbook.vn'
   }
 ];
 
