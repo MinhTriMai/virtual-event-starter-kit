@@ -7,21 +7,24 @@ import LinkButton from '../LinkButton';
 
 const data = [
   {
-    name: 'Moderator',
-    roleName: 'moderator',
+    name: 'Blog',
+    roleName: 'blog',
+    link: 'https://blog.tabbook.vn',
     role: 'backstage',
     desc: `This role is meant for the event organisers. The moderator is like a stage admin - can add speakers, remove them, invite attendees on stage, kick them out of the event, etc`
   },
   {
-    name: 'Speaker',
-    roleName: 'speaker',
+    name: 'Q&A',
+    roleName: 'q&a',
+    link: 'https://qa.tabbook.vn/public/',
     role: 'stage',
     desc:
       'This one is self explanatory. Use this role for folks who are going to be the main guests of the session. Speakers can also invite attendees on the stage, and respond to public chat messages.'
   },
   {
-    name: 'Attendee',
-    roleName: 'attendee',
+    name: 'Docs',
+    roleName: 'docs',
+    link: 'https://doc.tabbook.vn',
     role: 'viewer',
     desc: `This one is the most basic role - can see and hear whatever is happening on the stage, cannot share their audio and video, and can put up messages on the public chat section.`
   }
@@ -37,7 +40,7 @@ const DemoModal = () => {
   }, [router]);
   return (
     <div className="font-sans">
-      <p className="text-[32px] font-semibold my-0">Take your Webinar for a test drive</p>
+      <p className="text-[32px] font-semibold my-0">Take your Product for a test drive</p>
       <p className="text-gray-300 text-[15px] my-0">
         We have setup a few profiles to make it easy for you or your team to experience each
         perspective. Join in one click or share access with anyone else.
@@ -55,8 +58,8 @@ const DemoModal = () => {
             </div>
             <div className="flex items-center space-x-6">
               <CopyButton text={`${window.location.host}/stage/${stage || 'a'}?role=${m.role}`} />
-              <LinkButton className="w-[200px]" href={`/stage/${stage || 'a'}?role=${m.role}`}>
-                Join as {m.name} <ArrowRightIcon height={20} />
+              <LinkButton className="w-[200px]" href={`${m.link}`} target="blank_">
+                Try {m.name} <ArrowRightIcon height={20} />
               </LinkButton>
             </div>
           </div>
