@@ -19,7 +19,7 @@ import { scrollTo } from '@lib/smooth-scroll';
 import cn from 'classnames';
 import GithubIcon from '@components/icons/icon-github';
 import CheckIcon from '@components/icons/icon-check';
-import { REPO, SITE_ORIGIN, TicketGenerationState } from '@lib/constants';
+import { SITE_ORIGIN, TicketGenerationState } from '@lib/constants';
 import isMobileOrTablet from '@lib/is-mobile-or-tablet';
 import useConfData from '@lib/hooks/use-conf-data';
 import LoadingDots from './loading-dots';
@@ -152,7 +152,7 @@ export default function Form({ defaultUsername = '', setTicketGenerationState }:
             new Image().src = `https://github.com/${usernameFromResponse}.png`;
 
             // Prefetch the twitter share URL to eagerly generate the page
-            fetch(`/tickets/${usernameFromResponse}`).catch(_ => {});
+            fetch(`/tickets/${usernameFromResponse}`).catch(_ => { });
           })
           .catch(err => {
             // eslint-disable-next-line no-console
@@ -202,7 +202,7 @@ export default function Form({ defaultUsername = '', setTicketGenerationState }:
               </span>
             ) : null}
           </button>
-          <p className={ticketFormStyles.description}>
+          {/* <p className={ticketFormStyles.description}>
             {githubEnabled ? (
               'Only public info will be used.'
             ) : (
@@ -218,7 +218,7 @@ export default function Form({ defaultUsername = '', setTicketGenerationState }:
                 </a>
               </>
             )}
-          </p>
+          </p> */}
         </div>
         <div className={formStyles['or-divider']}>OR</div>
         <a
