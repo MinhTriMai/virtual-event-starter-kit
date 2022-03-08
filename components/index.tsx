@@ -31,7 +31,7 @@ type Props = {
 
 export default function Conf({
   defaultUserData,
-  sharePage,
+  // sharePage,
   defaultPageState = 'registration'
 }: Props) {
   const [userData, setUserData] = useState<UserData>(defaultUserData);
@@ -47,20 +47,12 @@ export default function Conf({
     >
       <Layout>
         <ConfContainer>
-          {pageState === 'registration' && !sharePage ? (
-            <>
-              <Hero />
-              <Form />
-              <LearnMore />
-            </>
-          ) : (
-            <Ticket
-              username={userData.username}
-              name={userData.name}
-              ticketNumber={userData.ticketNumber}
-              sharePage={sharePage}
-            />
-          )}
+          {/* {pageState === 'registration' && !sharePage ? ( */}
+          <>
+            <Hero />
+            {/* <Form /> */}
+            <LearnMore />
+          </>
         </ConfContainer>
       </Layout>
     </ConfDataContext.Provider>
