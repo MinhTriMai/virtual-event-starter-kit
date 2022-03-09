@@ -90,7 +90,7 @@ export default function Hero() {
           <br className={styleUtils['show-on-desktop']} /> for our community
         </h2>
         <a className={styles['base-card_card']} target="_blank" rel="noopener" href="https://www.facebook.com/TabBookVietNam">
-          <div className={styleUtils['base-card_gradient']}>
+          <div className={styles['base-card_gradient']} aria-hidden="true">
           </div>
           <div className={styles['community-section_nextConf'] + " " + styles['community-section_card']}>
             <div className={styles['community-section_content']}>

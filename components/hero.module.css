@@ -71,7 +71,7 @@
 .hero_background {
   position: absolute;
   width: 100%;
-  height: 750px;
+  /* height: 750px; */
   overflow: hidden;
   margin: 0 auto;
 }
@@ -191,36 +191,6 @@
   padding: 54px 70px;
 }
 
-/* .section_team_image_desktop {
-  box-sizing: border-box;
-  display: block;
-  width: initial;
-  height: initial;
-  background: none;
-  opacity: 1;
-  border: 0;
-  margin: 0;
-  padding: 0;
-  max-width: 100%;
-}
-
-.team_section_01 {
-  display: inline-block;
-  overflow: hidden;
-}
-
-.team_section_02 {
-  position: absolute;
-  border: none;
-  margin: auto;
-  width: 0;
-  height: 0;
-  min-width: 100%;
-  max-width: 100%;
-  min-height: 100%;
-  max-height: 100%;
-} */
-
 @media (min-width: 768px) {
   .hero {
     font-size: 100px;
@@ -238,5 +208,43 @@
     font-size: var(--space-8x);
     max-width: 531px;
     margin: 40px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .community-section_nextConf {
+    grid-template-columns: 1fr;
+  }
+
+  .community-section_card {
+    padding: 24px;
+  }
+
+  .community-section_card_h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .community-section_nextConf {
+    text-align: unset;
+    padding: 48px 0 0;
+  }
+
+  .community-section_attendees {
+    text-align: unset;
+    padding: 48px 0 0;
+  }
+
+  .text_text-gradient-40k {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -.03em;
+  }
+
+  .text_secondary {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -.01em;
+    padding-left: 10px;
   }
 }
