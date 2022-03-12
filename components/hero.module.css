@@ -142,10 +142,11 @@
   display: inline-block;
   position: relative;
   border-radius: 12px;
-  border: 1px solid transparent;
+  border: 1px solid white;
   text-decoration: none;
   /* color: blanchedalmond; */
 }
+
 
 /* .base-card_card:hover .base-card_gradient {
   opacity: 1;
@@ -153,13 +154,14 @@
 } */
 
 .base-card_gradient {
-  margin: calc(-1 * 1px);
+  /* margin: calc(-1 * 1px); */
   background: linear-gradient(139.34deg, #0070f3 9.71%, #ff0080 90.27%);
   opacity: 0;
   transition: opacity .3s ease;
 }
 
 .community-section_nextConf {
+  border-radius: 12px;
   background: linear-gradient(90deg, #000, transparent 67.8%), linear-gradient(139.34deg, rgba(0, 112, 243, .15) 9.71%, rgba(255, 0, 128, .15) 90.27%);
   display: grid;
   grid-template-columns: repeat(2, auto);

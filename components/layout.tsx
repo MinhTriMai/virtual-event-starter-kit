@@ -45,8 +45,9 @@ export default function Layout({
   isLive = false
 }: Props) {
   const router = useRouter();
-  const activeRoute = router.asPath;
-  const disableCta = ['/schedule', '/speakers', '/expo', '/jobs'];
+  const activeRoute = router.pathname;
+  const disableCta = ['/', '/speakers', '/explore', '/jobs'];
+  console.log('123', router.pathname);
   return (
     <>
       <div className={styles.background}>
@@ -67,7 +68,7 @@ export default function Layout({
                   key={name}
                   href={route}
                   className={cn(styles.tab, {
-                    [styles['tab-active']]: activeRoute.startsWith(route)
+                    [styles['tab-active']]: activeRoute === route
                   })}
                 >
                   {name}
@@ -76,7 +77,7 @@ export default function Layout({
             </div>
 
             {(hmsConfig.hmsIntegration && isLive && !disableCta.includes(activeRoute)) ||
-            activeRoute === '/' ? (
+              activeRoute === '/' ? (
               <div className={cn(styles['header-right'])}>
                 {activeRoute === '/' ? <DemoButton /> : <RoomCta />}
               </div>
