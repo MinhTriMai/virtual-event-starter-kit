@@ -59,7 +59,7 @@ export default function Hero() {
         >
           {SITE_DESCRIPTION}
         </h2>
-        <div className="md:block hidden text-center">
+        <div className="md:block text-center">
           <div style={{ minWidth: '300px' }}>
             <Image
               alt={'homescreen'}
@@ -87,8 +87,20 @@ export default function Hero() {
           <span className={styles['text_text_gradient']}> 25</span> states and
           <span className={styles['text_text_gradient']}> 22</span> countries.
         </h3>
+        <div className="md:block text-center">
+          <div style={{ minWidth: '300px' }}>
+            <Image
+              alt={'homescreen'}
+              title={'home_screen'}
+              src="/counting_stars.svg"
+              className={styles.image}
+              loading="lazy"
+              height={400}
+              width={300}
+            />
+          </div>
+        </div>
       </section>
-
       <section className={styles['section_3']}>
         <h2 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
           We kept working
