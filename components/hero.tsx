@@ -35,7 +35,7 @@ export default function Hero() {
           <p>Cộng đồng</p>
           <div className={styles['description-separator']} />
           <p>
-            <strong>Online</strong>
+            <strong>Trực tuyến</strong>
           </p>
         </div>
         <h2
