@@ -148,11 +148,6 @@
 }
 
 
-/* .base-card_card:hover .base-card_gradient {
-  opacity: 1;
-  transition: opacity .3s ease;
-} */
-
 .base-card_gradient {
   /* margin: calc(-1 * 1px); */
   background: linear-gradient(139.34deg, #0070f3 9.71%, #ff0080 90.27%);
@@ -225,16 +220,19 @@
   .community-section_card_h4 {
     font-size: 24px;
     line-height: 32px;
+    padding: 10px;
   }
 
   .community-section_nextConf {
     text-align: unset;
-    padding: 48px 0 0;
+    padding: 10px 0 0;
+    text-align: center;
   }
 
   .community-section_attendees {
     text-align: unset;
-    padding: 48px 0 0;
+    padding: 10px 0 20px;
+    text-align: center;
   }
 
   .text_text-gradient-40k {
@@ -248,5 +246,22 @@
     line-height: 20px;
     letter-spacing: -.01em;
     padding-left: 10px;
+  }
+
+  .section_1 {
+    margin-bottom: 30px;
+  }
+
+  .section_2 {
+    margin-bottom: 30px;
+  }
+
+  .section_3 {
+    margin-bottom: 30px;
+  }
+
+  .text_statistic_center {
+    font-size: 32px;
+    line-height: 42px;
   }
 }
