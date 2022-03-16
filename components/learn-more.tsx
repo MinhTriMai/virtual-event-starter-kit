@@ -22,7 +22,7 @@ import { BLOG } from '@lib/constants';
 export default function LearnMore() {
   return (
     <div className={cn(styleUtils.appear, styleUtils['appear-fifth'], styles.contact)}>
-      Learn more on{' '}
+      Xem thêm trên{' '}
       <a href={BLOG} className={styles['contact-email']} target="_blank" rel="noopener noreferrer">
         Blogs
       </a>

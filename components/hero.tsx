@@ -25,25 +25,14 @@ export default function Hero() {
       <section className={styles['section_1']}>
         <div className={styles['hero_background']} aria-hidden="true">
           <div className={styles['section_background_container']} >
-
           </div>
         </div>
-        <h2
-          className={cn(
-            styleUtils.appear,
-            styleUtils['appear-third'],
-            styleUtils['show-on-mobile'],
-            styles.description
-          )}
-        >
-          {SITE_DESCRIPTION}
-        </h2>
         <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
-          Welcome to the
+          Chào mừng bạn đến
           <br className={styleUtils['show-on-desktop']} /> {BRAND_NAME}
         </h1>
         <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
-          <p>{DATE}</p>
+          <p>Cộng đồng</p>
           <div className={styles['description-separator']} />
           <p>
             <strong>Online</strong>
@@ -54,6 +43,16 @@ export default function Hero() {
             styleUtils.appear,
             styleUtils['appear-third'],
             styleUtils['show-on-tablet'],
+            styles.description
+          )}
+        >
+          {SITE_DESCRIPTION}
+        </h2>
+        <h2
+          className={cn(
+            styleUtils.appear,
+            styleUtils['appear-third'],
+            styleUtils['show-on-mobile'],
             styles.description
           )}
         >
@@ -75,17 +74,17 @@ export default function Hero() {
       </section>
       <section className={styles['section_2']}>
         <h2 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
-          Mission
+          Sứ mệnh
           {/* <br className={styleUtils['show-on-desktop']} /> {BRAND_NAME}
          */}
           <br></br>
-          <span className={styles['text_text-gradient']}>of {BRAND_NAME}</span>
+          <span className={styles['text_text-gradient']}>của {BRAND_NAME}</span>
         </h2>
         <h3 className={cn(styleUtils.appear, styleUtils['appear-third'], styles['text_statistic_center'])} >
-          We hired
-          <span className={styles['text_text_gradient']}> 131</span> new teammates from
-          <span className={styles['text_text_gradient']}> 25</span> states and
-          <span className={styles['text_text_gradient']}> 22</span> countries.
+          Là nơi
+          <span className={styles['text_text_gradient']}> giúp bạn</span> thực học,
+          <span className={styles['text_text_gradient']}> tìm thấy</span> công việc trong lĩnh vực
+          <span className={styles['text_text_gradient']}> công nghệ</span> phù hợp.
         </h3>
         <div className="md:block text-center">
           <div style={{ minWidth: '300px' }}>
@@ -103,20 +102,30 @@ export default function Hero() {
       </section>
       <section className={styles['section_3']}>
         <h2 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
-          We kept working
-          <br className={styleUtils['show-on-desktop']} /> for our community
+          Chúng tôi hướng đến
+          <br className={styleUtils['show-on-desktop']} /> cộng đồng
+        </h2>
+        <h2
+          className={cn(
+            styleUtils.appear,
+            styleUtils['appear-third'],
+            styleUtils['show-on-mobile'],
+            styles.description
+          )}
+        >
+          Phát triển năng lực, kỹ năng và tính sáng tạo cùng nhau
         </h2>
         <a className={styles['base-card_card']} target="_blank" rel="noopener" href="https://www.facebook.com/TabBookVietNam">
           <div className={cn(styleUtils.appear, styleUtils['appear-third'], styles['base-card_gradient'])} aria-hidden="true">
           </div>
           <div className={styles['community-section_nextConf'] + " " + styles['community-section_card']}>
             <div className={cn(styleUtils.appear, styleUtils['appear-third'], styles['community-section_content'])}>
-              <h4 className={styles['community-section_card_h4']}>We hosted the largest virtual gathering of Next.js developers.</h4>
+              <h4 className={styles['community-section_card_h4']}>Fanpage sôi động để tất cả mọi người cùng tham gia.</h4>
             </div>
             <div className={cn(styleUtils.appear, styleUtils['appear-third'], styles['community-section_attendees'])}>
               <span className={styles['text_text-gradient-40k']}>997</span>
               <div className={styles['text_secondary']}>
-                members
+                thành viên
               </div>
             </div>
           </div>

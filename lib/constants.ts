@@ -23,7 +23,7 @@ export const SITE_NAME = 'TABBOOK';
 export const META_DESCRIPTION =
   'Tabbook là một dự án cộng đồng dành cho sinh viên, hướng đến mục tiêu giúp sinh viên định hướng công việc, kỹ năng cần thiết cho những công việc tiềm năng trong lĩnh vực công nghệ.';
 export const SITE_DESCRIPTION =
-  'An interactive online experience by the community, free for everyone.';
+  'Một trải nghiệm trực tuyến tương tác của cộng đồng, miễn phí cho tất cả mọi người.';
 export const DATE = 'Community';
 export const SHORT_DATE = 'Mar 15 - 9:00am PST';
 export const FULL_DATE = 'Mar 15th 9am Pacific Time (GMT-7)';
