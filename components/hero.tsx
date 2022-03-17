@@ -81,10 +81,9 @@ export default function Hero() {
           <span className={styles['text_text-gradient']}>của {BRAND_NAME}</span>
         </h2>
         <h3 className={cn(styleUtils.appear, styleUtils['appear-third'], styles['text_statistic_center'])} >
-          Là nơi
-          <span className={styles['text_text_gradient']}> giúp bạn</span> thực học,
-          <span className={styles['text_text_gradient']}> tìm thấy</span> công việc trong lĩnh vực
-          <span className={styles['text_text_gradient']}> công nghệ</span> phù hợp.
+          Là nơi kết nối những ai đang tìm
+          <span className={styles['text_text_gradient']}> định hướng</span>, cùng nhau tìm thấy công việc trong lĩnh vực
+          <span className={styles['text_text_gradient']}> công nghệ</span> phù hợp với bản thân.
         </h3>
         <div className="md:block text-center">
           <div style={{ minWidth: '300px' }}>
@@ -123,7 +122,7 @@ export default function Hero() {
               <h4 className={styles['community-section_card_h4']}>Fanpage sôi động để tất cả mọi người cùng tham gia.</h4>
             </div>
             <div className={cn(styleUtils.appear, styleUtils['appear-third'], styles['community-section_attendees'])}>
-              <span className={styles['text_text-gradient-40k']}>997</span>
+              <span className={styles['text_text-gradient-40k']}>1.6K</span>
               <div className={styles['text_secondary']}>
                 thành viên
               </div>
