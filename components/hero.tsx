@@ -119,7 +119,7 @@ export default function Hero() {
           </div>
           <div className={styles['community-section_nextConf'] + " " + styles['community-section_card']}>
             <div className={cn(styleUtils.appear, styleUtils['appear-third'], styles['community-section_content'])}>
-              <h4 className={styles['community-section_card_h4']}>Fanpage sôi động để tất cả mọi người cùng tham gia.</h4>
+              <h4 className={styles['community-section_card_h4']}>Cộng đồng trực tuyến sôi động để tất cả mọi người cùng tham gia.</h4>
             </div>
             <div className={cn(styleUtils.appear, styleUtils['appear-third'], styles['community-section_attendees'])}>
               <span className={styles['text_text-gradient-40k']}>1.6K</span>

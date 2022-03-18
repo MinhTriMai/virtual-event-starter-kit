@@ -29,12 +29,12 @@ const DemoButton = () => {
       <Dialog.Overlay className={cn(styles['overlay'])} />
       <Dialog.Trigger asChild>
         <button ref={ctaRef} id="cta-btn" className={cn(styles['cta-btn'])}>
-          Try Products
+          Trải nghiệm
         </button>
       </Dialog.Trigger>
       <div id="cta-tooltip" className={cn(styles['tooltip'])}>
         <InfoIcon />
-        Click here to use a product provided by Tabbook
+        Nhấn vào đây để sử dụng sản phẩm cung cấp bởi Tabbook
       </div>
       <Dialog.Content className={cn(styles['content'], 'dialog-animation')}>
         <Dialog.Close asChild className={cn(styles['close-btn'])}>

@@ -11,7 +11,7 @@ const data = [
     roleName: 'blog',
     link: 'https://blog.tabbook.vn',
     role: 'backstage',
-    desc: `This role is meant for the event organisers. The moderator is like a stage admin - can add speakers, remove them, invite attendees on stage, kick them out of the event, etc`
+    desc: `Đây là sản phẩm cung cấp những bài viết chất lượng về nghề nghiệp công nghệ tiềm năng trong thời đại số. Bạn có thể tìm hiểu được nghề nghiệp nào phù hợp với bản thân mình tại đây.`
   },
   {
     name: 'Q&A',
@@ -19,14 +19,14 @@ const data = [
     link: 'https://qa.tabbook.vn/public/',
     role: 'stage',
     desc:
-      'This one is self explanatory. Use this role for folks who are going to be the main guests of the session. Speakers can also invite attendees on the stage, and respond to public chat messages.'
+      'Sản phẩm này là một cộng đồng trao đổi trực tuyến, mọi người có thể đặt câu hỏi về nghề nghiệp mình quan tâm và nhận được câu trả lời trực tuyến từ những người có kinh nghiệm tham gia.'
   },
   {
     name: 'Docs',
     roleName: 'docs',
     link: 'https://doc.tabbook.vn',
     role: 'viewer',
-    desc: `This one is the most basic role - can see and hear whatever is happening on the stage, cannot share their audio and video, and can put up messages on the public chat section.`
+    desc: `Đây được xem như cuốn Bách khoa toàn tập dành cho sinh viên, mọi thứ cần ghi nhớ để tồn tại trong quãng đời đại học đều có ở đây. Khi mà công nghệ sẽ giúp việc ghi nhớ không còn là vấn đề!`
   }
 ];
 
@@ -40,10 +40,9 @@ const DemoModal = () => {
   }, [router]);
   return (
     <div className="font-sans">
-      <p className="text-[32px] font-semibold my-0">Take your Product for a test drive</p>
+      <p className="text-[32px] font-semibold my-0">Chọn sản phẩm bạn muốn trải nghiệm</p>
       <p className="text-gray-300 text-[15px] my-0">
-        We have setup a few profiles to make it easy for you or your team to experience each
-        perspective. Join in one click or share access with anyone else.
+        Chúng tôi đã phát triển nhiều sản phẩm để bạn dễ dàng trải nghiệm. Sử dụng ngay bằng một cú nhấp chuột hoặc chia sẻ Tabbook với bất kỳ ai khác.
       </p>
       <div>
         {data.map(m => (
@@ -64,9 +63,9 @@ const DemoModal = () => {
             </div>
           </div>
         ))}
-        <div className="flex items-center justify-center mt-4 ">
+        {/* <div className="flex items-center justify-center mt-4 ">
           Powered by <HmsLogo />
-        </div>
+        </div> */}
       </div>
     </div>
   );
