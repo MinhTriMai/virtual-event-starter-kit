@@ -63,11 +63,11 @@ export default function Hero() {
             <Image
               alt={'homescreen'}
               title={'home_screen'}
-              src="/home_screen.svg"
+              src="/TrueMockup.png"
               className={styles.image}
               loading="lazy"
-              height={400}
-              width={300}
+              height={553}
+              width={553}
             />
           </div>
         </div>
