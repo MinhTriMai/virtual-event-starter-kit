@@ -57,21 +57,21 @@ export const NAVIGATION = [
     route: '/'
   },
   // {
-  //   name: 'Speakers',
-  //   route: '/speakers'
+  //   name: 'Teams',
+  //   route: '/teams'
   // },
   // {
   //   name: 'Explore',
   //   route: '/explore'
   // },
-  {
-    name: 'Jobs',
-    route: '/jobs'
-  },
   // {
-  //   name: 'Docs',
-  //   route: 'https://doc.tabbook.vn'
+  //   name: 'Jobs',
+  //   route: '/jobs'
   // },
+  {
+    name: 'Docs',
+    route: 'https://doc.tabbook.vn'
+  },
   {
     name: 'Blogs',
     route: 'https://blog.tabbook.vn'
