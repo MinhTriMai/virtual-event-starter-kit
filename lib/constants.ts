@@ -64,10 +64,10 @@ export const NAVIGATION = [
   //   name: 'Explore',
   //   route: '/explore'
   // },
-  // {
-  //   name: 'Jobs',
-  //   route: '/jobs'
-  // },
+  {
+    name: 'Jobs',
+    route: '/jobs'
+  },
   {
     name: 'Docs',
     route: 'https://doc.tabbook.vn'
