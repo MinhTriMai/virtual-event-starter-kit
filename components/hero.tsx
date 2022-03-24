@@ -63,7 +63,7 @@ export default function Hero() {
             <Image
               alt={'homescreen'}
               title={'home_screen'}
-              src="/TrueMockup.png"
+              src="/PixelTrueMockup.png"
               className={styles.image}
               loading="lazy"
               height={553}
