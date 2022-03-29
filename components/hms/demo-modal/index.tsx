@@ -56,9 +56,9 @@ const DemoModal = () => {
               <p className="text-gray-300 text-xs">{m.desc}</p>
             </div>
             <div className="flex items-center space-x-6">
-              <CopyButton text={`${window.location.host}/stage/${stage || 'a'}?role=${m.role}`} />
+              <CopyButton text={`${m.link}`} />
               <LinkButton className="w-[200px]" href={`${m.link}`} target="blank_">
-                Try {m.name} <ArrowRightIcon height={20} />
+                Đến {m.name} <ArrowRightIcon height={20} />
               </LinkButton>
             </div>
           </div>
@@ -88,11 +88,11 @@ export const CopyButton = ({ text = '' }) => {
     <div className="relative">
       {copied ? (
         <p className="absolute top-10 left-0 flex bg-gray-600 justify-center  rounded-lg w-48 p-2">
-          Copied to clipboard!
+          Đã sao chép!
         </p>
       ) : null}
       <Button variant="secondary" onClick={copy}>
-        Invite
+        Mời bạn
       </Button>
     </div>
   );
