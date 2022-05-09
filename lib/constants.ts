@@ -60,10 +60,10 @@ export const NAVIGATION = [
   //   name: 'Teams',
   //   route: '/teams'
   // },
-  // {
-  //   name: 'Explore',
-  //   route: '/explore'
-  // },
+  {
+    name: 'Explore',
+    route: '/explore'
+  },
   {
     name: 'Jobs',
     route: '/jobs'
@@ -74,7 +74,7 @@ export const NAVIGATION = [
   },
   {
     name: 'Blogs',
-    route: 'https://blog.tabbook.vn'
+    route: 'https://tabbook.vn/blog'
   }
 ];
 

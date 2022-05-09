@@ -9,7 +9,7 @@ const data = [
   {
     name: 'Blog',
     roleName: 'blog',
-    link: 'https://blog.tabbook.vn',
+    link: 'https://tabbook.vn/blog',
     role: 'backstage',
     desc: `Đây là sản phẩm cung cấp những bài viết chất lượng về nghề nghiệp công nghệ tiềm năng trong thời đại số. Bạn có thể tìm hiểu được nghề nghiệp nào phù hợp với bản thân mình tại đây.`
   },
