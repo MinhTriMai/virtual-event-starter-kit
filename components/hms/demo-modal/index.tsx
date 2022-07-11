@@ -14,19 +14,19 @@ const data = [
     desc: `Đây là sản phẩm cung cấp những bài viết chất lượng về nghề nghiệp công nghệ tiềm năng trong thời đại số. Bạn có thể tìm hiểu được nghề nghiệp nào phù hợp với bản thân mình tại đây.`
   },
   {
-    name: 'Q&A',
-    roleName: 'q&a',
-    link: 'https://qa.tabbook.vn/public/',
+    name: 'Explore',
+    roleName: 'explore',
+    link: 'https://explore.tabbook.vn',
     role: 'stage',
     desc:
-      'Sản phẩm này là một cộng đồng trao đổi trực tuyến, mọi người có thể đặt câu hỏi về nghề nghiệp mình quan tâm và nhận được câu trả lời trực tuyến từ những người có kinh nghiệm tham gia.'
+      'Sản phẩm này là một công cụ giúp bạn tìm thấy được những nghề nghiệp cụ thể nào phù hợp với bản thân, từ đó bạn có thể tìm hiểu thêm và dấn thân vào sự nghiệp tương lai của mình.'
   },
   {
     name: 'Docs',
     roleName: 'docs',
     link: 'https://doc.tabbook.vn',
     role: 'viewer',
-    desc: `Đây được xem như cuốn Bách khoa toàn tập dành cho sinh viên, mọi thứ cần ghi nhớ để tồn tại trong quãng đời đại học đều có ở đây. Khi mà công nghệ sẽ giúp việc ghi nhớ không còn là vấn đề!`
+    desc: `Đây được xem như cuốn Bách khoa toàn tập dành cho những ai muốn có được 1 công việc trong lĩnh vực công nghệ, mọi thứ cần biết và chuẩn bị đều có ở đây!`
   }
 ];
 

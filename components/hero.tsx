@@ -82,7 +82,7 @@ export default function Hero() {
         </h2>
         <h3 className={cn(styleUtils.appear, styleUtils['appear-third'], styles['text_statistic_center'])} >
           Là nơi kết nối những ai đang tìm
-          <span className={styles['text_text_gradient']}> định hướng</span>, cùng nhau tìm thấy công việc trong lĩnh vực
+          <span className={styles['text_text_gradient']}> định hướng</span>, cùng nhau tìm thấy cơ hội trong lĩnh vực
           <span className={styles['text_text_gradient']}> công nghệ</span> phù hợp với bản thân.
         </h3>
         <div className="md:block text-center">

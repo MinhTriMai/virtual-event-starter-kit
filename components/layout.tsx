@@ -46,7 +46,7 @@ export default function Layout({
 }: Props) {
   const router = useRouter();
   const activeRoute = router.pathname;
-  const disableCta = ['/', '/speakers', '/explore', '/jobs'];
+  const disableCta = ['/', '/teams', '/explore', '/jobs'];
   console.log('123', router.pathname);
   return (
     <>
