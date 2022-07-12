@@ -31,7 +31,7 @@ function StageRow({ stage }: { stage: Stage }) {
       <h3 className={cn(styles['stage-name'], styles[stage.slug])}>
         <span>{stage.name}</span>
       </h3>
-      <div className={cn(styles.talks, styles[stage.slug])}>
+      {/* <div className={cn(styles.talks, styles[stage.slug])}>
         {Object.keys(timeBlocks).map((startTime: string) => (
           <div key={startTime}>
             {timeBlocks[startTime].map((talk: Talk, index: number) => (
@@ -39,7 +39,7 @@ function StageRow({ stage }: { stage: Stage }) {
             ))}
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
