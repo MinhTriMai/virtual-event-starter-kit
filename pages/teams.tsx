@@ -38,7 +38,7 @@ export default function Speakers({ speakers }: Props) {
     // null
     <Page meta={meta}>
       <Layout>
-        <Header hero="Speakers" description={meta.description} />
+        <Header hero="Đội ngũ" description={meta.description} />
         <SpeakersGrid speakers={speakers} />
       </Layout>
     </Page>

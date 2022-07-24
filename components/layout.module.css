@@ -49,6 +49,7 @@
   border-bottom: 1px solid var(--accents-7);
   height: var(--header-height);
   z-index: 2;
+  position: relative;
 }
 
 .header-logos {
@@ -60,8 +61,11 @@
 
 .header-right {
   margin: var(--space-2x) var(--space-4x);
-  margin-right: 5rem;
+  /* margin-right: 5rem; */
   display: none;
+  position: absolute;
+  right: 0;
+  top: 7px;
 }
 
 @media screen and (min-width: 770px) {

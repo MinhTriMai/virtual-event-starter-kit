@@ -13,8 +13,8 @@
 .tooltip {
   display: none;
   position: absolute;
-  top: 70px;
-  right: 20px;
+  top: 50px;
+  right: 0;
   background: #444443;
   border-radius: 8px;
   padding: 12px;
