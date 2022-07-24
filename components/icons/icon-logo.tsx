@@ -13,8 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+ import Image from 'next/image';
 
-export default function IconLogo({
+export default function IconLogo() {
+  return (
+    <p style={{ color: '#fff' }}><strong>TABBOOK</strong></p>
+  );
+}
+
+export function IconLogoOld({
   backgroundColor = 'transparent',
   foregroundColor = 'var(--accents-1)',
   ...props

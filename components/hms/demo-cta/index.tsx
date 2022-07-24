@@ -9,11 +9,13 @@ import DemoModal from '../demo-modal';
 
 const DemoButton = () => {
   React.useEffect(() => {
+    const el = document.getElementById('cta-btn');
+    el?.classList.add('show-overlay');
+    const tooltip = document.getElementById('cta-tooltip');
+    tooltip?.classList.add('fade-in');
+
     setTimeout(() => {
-      const el = document.getElementById('cta-btn');
-      el?.classList.add('show-overlay');
-      const tooltip = document.getElementById('cta-tooltip');
-      tooltip?.classList.add('fade-in');
+      clickedOutside();
     }, 3000);
   }, []);
   const ctaRef = React.useRef(null);
