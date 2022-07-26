@@ -28,7 +28,7 @@ type Props = {
 export default function SponsorSection({ sponsor }: Props) {
   return (
     <>
-      <Link href="/expo">
+      <Link href="/explore">
         <a className={styles.backlink}>
           <svg
             viewBox="0 0 24 24"
@@ -43,7 +43,7 @@ export default function SponsorSection({ sponsor }: Props) {
           >
             <path d="M15 18l-6-6 6-6" />
           </svg>
-          Back to expo
+          Back to explore
         </a>
       </Link>
       <div className={styles.layout}>
@@ -88,11 +88,11 @@ export default function SponsorSection({ sponsor }: Props) {
               type="button"
               className={cn(styles.button, styles['button-link'])}
             >
-              Chat on Discord
+              Diễn đàn thảo luận
             </a>
           </div>
           <div className={styles.resources}>
-            <h2 className={styles.heading}>Resources</h2>
+            <h2 className={styles.heading}>Tài nguyên</h2>
             {sponsor.links.map(link => (
               <a
                 key={link.url}
