@@ -70,7 +70,7 @@ export const NAVIGATION = [
   },
   {
     name: 'Docs',
-    route: 'https://doc.tabbook.vn'
+    route: 'https://docs.tabbook.vn'
   },
   {
     name: 'Blogs',
