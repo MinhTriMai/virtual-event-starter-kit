@@ -24,7 +24,7 @@ const data = [
   {
     name: 'Docs',
     roleName: 'docs',
-    link: 'https://doc.tabbook.vn',
+    link: 'https://docs.tabbook.vn',
     role: 'viewer',
     desc: `Đây được xem như cuốn Bách khoa toàn tập dành cho những ai muốn có được 1 công việc trong lĩnh vực công nghệ, mọi thứ cần biết và chuẩn bị đều có ở đây!`
   }
