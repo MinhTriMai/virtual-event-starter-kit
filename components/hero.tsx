@@ -32,11 +32,9 @@ export default function Hero() {
           <br className={styleUtils['show-on-desktop']} /> {BRAND_NAME}
         </h1>
         <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
-          <p>Cộng đồng</p>
+          <a href="#communitySection">Cộng đồng</a>
           <div className={styles['description-separator']} />
-          <p>
-            <strong>Trực tuyến</strong>
-          </p>
+          <a href="https://qa.tabbook.vn/public/" target="_blank"><strong>Hỏi Đáp</strong></a>
         </div>
         <h2
           className={cn(
@@ -97,9 +95,10 @@ export default function Hero() {
               width={300}
             />
           </div>
+          <a className={cn(styles.teamLink, styles.text_text_gradient)} href="/teams">Đội ngũ của TAB</a>
         </div>
       </section>
-      <section className={styles['section_3']}>
+      <section id="communitySection" className={styles['section_3']}>
         <h2 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
           Chúng tôi hướng đến
           <br className={styleUtils['show-on-desktop']} /> cộng đồng
@@ -120,6 +119,7 @@ export default function Hero() {
           <div className={styles['community-section_nextConf'] + " " + styles['community-section_card']}>
             <div className={cn(styleUtils.appear, styleUtils['appear-third'], styles['community-section_content'])}>
               <h4 className={styles['community-section_card_h4']}>Cộng đồng trực tuyến sôi động để tất cả mọi người cùng tham gia.</h4>
+              <span style={{ alignSelf: 'center', fontSize: '20px' }}>Tham gia ngay</span>
             </div>
             <div className={cn(styleUtils.appear, styleUtils['appear-third'], styles['community-section_attendees'])}>
               <span className={styles['text_text-gradient-40k']}>1.6K</span>

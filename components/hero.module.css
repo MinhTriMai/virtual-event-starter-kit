@@ -38,6 +38,10 @@
   color: var(--brand);
 }
 
+.info > a {
+  color: inherit;
+}
+
 .description {
   font-weight: 400;
   font-size: 20px;
@@ -147,6 +151,26 @@
   /* color: blanchedalmond; */
 }
 
+
+.base-card_card:hover {
+  color: #fff;
+  border-color: #8465cb;
+  box-shadow: 0px 0px 10px 5px #8465cb;
+}
+
+.teamLink {
+  padding: 10px 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: box-shadow 150ms ease-out;
+  border-radius: 8px;
+  font-size: 32px;
+}
+
+.teamLink:hover {
+  box-shadow: 0px 0px 8px 4px #8465cb;
+  -webkit-text-fill-color: #fff;
+}
 
 .base-card_gradient {
   /* margin: calc(-1 * 1px); */
