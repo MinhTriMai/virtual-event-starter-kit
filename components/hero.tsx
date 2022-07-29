@@ -88,14 +88,15 @@ export default function Hero() {
             <Image
               alt={'homescreen'}
               title={'home_screen'}
-              src="/counting_stars.svg"
+              src="/counting_stars_tab.png"
               className={styles.image}
               loading="lazy"
-              height={400}
-              width={300}
+              height={480}
+              width={1920}
             />
           </div>
           <a className={cn(styles.teamLink, styles.text_text_gradient)} href="/teams">Đội ngũ của TAB</a>
+          {/* <h4 className={cn(styleUtils.appear, styleUtils['appear-third'], styles['team-section_h4'])}>We build products for <strong className={styles['team-section_highlight_h4']}>developers and designers.</strong> And those who aspire to become one.</h4> */}
         </div>
       </section>
       <section id="communitySection" className={styles['section_3']}>
