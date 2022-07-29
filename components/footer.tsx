@@ -64,7 +64,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Code of Conduct
+              Chính sách và điều khoản
             </a>
           </p>
           {LEGAL_URL && (

@@ -36,7 +36,7 @@ export const LEGAL_URL = process.env.NEXT_PUBLIC_PRIVACY_POLICY_URL;
 export const COPYRIGHT_HOLDER = process.env.NEXT_PUBLIC_COPYRIGHT_HOLDER;
 
 export const CODE_OF_CONDUCT =
-  'https://tabbook.vn';
+  'https://tabbook.vn/blog/privacy-policy/';
 export const BLOG = 'https://tabbook.vn/blog';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
