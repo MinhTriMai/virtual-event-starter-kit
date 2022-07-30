@@ -42,7 +42,7 @@ const DemoModal = () => {
     <div className="font-sans">
       <p className="text-[32px] font-semibold my-0">Chọn sản phẩm bạn muốn trải nghiệm</p>
       <p className="text-gray-300 text-[15px] my-0">
-        Chúng tôi đã phát triển nhiều sản phẩm để bạn dễ dàng trải nghiệm. Sử dụng ngay bằng một cú nhấp chuột hoặc chia sẻ Tabbook với bất kỳ ai khác.
+        Chúng tôi đã phát triển nhiều sản phẩm để bạn dễ dàng trải nghiệm. Sử dụng ngay bằng một cú nhấp chuột!
       </p>
       <div>
         {data.map(m => (
@@ -56,7 +56,7 @@ const DemoModal = () => {
               <p className="text-gray-300 text-xs">{m.desc}</p>
             </div>
             <div className="flex items-center space-x-6">
-              <CopyButton text={`${m.link}`} />
+              {/* <CopyButton text={`${m.link}`} /> */}
               <LinkButton className="w-[200px]" href={`${m.link}`} target="blank_">
                 Đến {m.name} <ArrowRightIcon height={20} />
               </LinkButton>

@@ -94,11 +94,12 @@
 }
 
 .section_2 {
-  margin-bottom: 125px;
+  margin-bottom: 50px;
 }
 
 .section_3 {
   margin-bottom: 125px;
+  text-align: center;
 }
 
 .text_statistic_center {
@@ -141,7 +142,7 @@
 
 .base-card_card {
   border-width: 1px;
-  width: 100%;
+  width: 80%;
   height: 100%;
   display: inline-block;
   position: relative;
@@ -189,13 +190,101 @@
   font-weight: 400;
   text-transform: none;
   padding: 0 22%;
+  color: var(--accents-5);
   justify-content: space-between;
-    --flex: 1;
-    --justify-content: center;
-    --align-items: center;
+  --flex: 1;
+  --justify-content: center;
+  --align-items: center;
+}
+
+.commnunity_vertical_line {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 1px;
+  max-width: 100%;
+  --flex: 1;
+  --justify-content: flex-start;
+  --align-items:  stretch;
+}
+
+.path_line {
+  width: 1px;
+  align-self: center;
+  height: 100px;
+}
+
+.path_line.path_line_gradient_mission {
+  background: linear-gradient(139.34deg, #000 9.71%, #ff0080 90.27%);
+  padding-right: 1px;
+}
+
+.path_line.path_line_gradient {
+  background: linear-gradient(139.34deg, #000 9.71%, #0070f3 90.27%);
+  padding-right: 1px;
+}
+
+.section_label {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.section_label_number_mission {
+  display: inline-flex;
+  border-radius: 100%;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom: 24px;
+  background: #ff0080;
+}
+
+.section_label_number {
+  display: inline-flex;
+  border-radius: 100%;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom: 24px;
+  background: #0070f3;
+}
+
+
+.section_label_heading {
+  font-size: 2rem;
+  letter-spacing: -.05em;
+  margin: 0;
+  font-weight: 700;
+}
+
+.section_label_text_mission {
+  --padding: 0.2em;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  background-image: linear-gradient(90deg,#ff0080, #d8a1bc);
+}
+
+.section_label_text {
+  --padding: 0.2em;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  background-image: linear-gradient(90deg,var(--start-color),var(--end-color));
 }
 
 .community-section_card_h4 {
+  text-align: left;
   max-width: 500px;
   font-weight: 400;
   font-size: 32px;

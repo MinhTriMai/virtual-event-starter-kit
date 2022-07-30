@@ -71,6 +71,15 @@ export default function Hero() {
         </div>
       </section>
       <section className={styles['section_2']}>
+        <div className={styles['commnunity_vertical_line']} >
+          <span className={cn(styles['path_line'], styles['path_line_gradient_mission'])}></span>
+          <div className={styles['section_label']}>
+            <span className={cn(styles['section_label_number_mission'])}>💌</span>
+            <h3 className={styles['section_label_heading']}  >
+              <span className={styles['section_label_text_mission']}>Mission</span>
+            </h3>
+          </div>
+        </div>
         <h2 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
           Sứ mệnh
           {/* <br className={styleUtils['show-on-desktop']} /> {BRAND_NAME}
@@ -96,10 +105,19 @@ export default function Hero() {
             />
           </div>
           <a className={cn(styles.teamLink, styles.text_text_gradient)} href="/teams">Đội ngũ của TAB</a>
-          <h4 className={cn(styleUtils.appear, styleUtils['appear-third'], styles['team-section_h4'])}>Chúng tôi là một tập thể gồm <strong className={styles['team-section_highlight_h4']}>những sinh viên tuyệt vời,</strong> luôn nỗ lực để tạo ra những sản phẩm thú vị. Chúng tôi luôn nổ lực không ngừng để phát triển bản thân và mong muốn có thể giúp mọi người khám phá cơ hội của bạn trong thế giới công nghệ”</h4>
+          <h4 className={cn(styleUtils.appear, styleUtils['appear-third'], styles['team-section_h4'])}>Chúng tôi là một tập thể gồm <strong className={styles['team-section_highlight_h4']}>những sinh viên tuyệt vời,</strong> luôn nỗ lực để tạo ra những sản phẩm thú vị. Chúng tôi luôn nổ lực không ngừng để phát triển bản thân và mong muốn có thể giúp mọi người khám phá cơ hội của họ trong thế giới công nghệ</h4>
         </div>
       </section>
       <section id="communitySection" className={styles['section_3']}>
+        <div className={styles['commnunity_vertical_line']} >
+          <span className={cn(styles['path_line'], styles['path_line_gradient'])}></span>
+          <div className={styles['section_label']}>
+            <span className={cn(styles['section_label_number'])}>🧿</span>
+            <h3 className={styles['section_label_heading']}  >
+              <span className={styles['section_label_text']}>Community</span>
+            </h3>
+          </div>
+        </div>
         <h2 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
           Chúng tôi hướng đến
           <br className={styleUtils['show-on-desktop']} /> cộng đồng
@@ -112,7 +130,7 @@ export default function Hero() {
             styles.description
           )}
         >
-          Phát triển năng lực, kỹ năng và tính sáng tạo cùng nhau
+          Phát triển một cộng đồng cùng nhau sáng tạo và dám khác biệt
         </h2>
         <a className={styles['base-card_card']} target="_blank" rel="noopener" href="https://www.facebook.com/TabBookVietNam">
           <div className={cn(styleUtils.appear, styleUtils['appear-third'], styles['base-card_gradient'])} aria-hidden="true">
