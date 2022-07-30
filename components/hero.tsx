@@ -59,8 +59,8 @@ export default function Hero() {
         <div className="md:block text-center">
           <div style={{ minWidth: '300px' }}>
             <Image
-              alt={'homescreen'}
-              title={'home_screen'}
+              alt={'homescreen product demo'}
+              title={'home_screen_product_demo'}
               src="/PixelTrueMockup.png"
               className={styles.image}
               loading="lazy"
@@ -84,19 +84,19 @@ export default function Hero() {
           <span className={styles['text_text_gradient']}> công nghệ</span> phù hợp với bản thân.
         </h3>
         <div className="md:block text-center">
-          <div style={{ minWidth: '300px' }}>
+          <div style={{ minWidth: '300px', padding: '10px 0' }}>
             <Image
-              alt={'homescreen'}
-              title={'home_screen'}
+              alt={'homescreen mission of TAB'}
+              title={'home_screen_mission'}
               src="/counting_stars_tab.png"
               className={styles.image}
               loading="lazy"
-              height={480}
-              width={1920}
+              height={300}
+              width={1200}
             />
           </div>
           <a className={cn(styles.teamLink, styles.text_text_gradient)} href="/teams">Đội ngũ của TAB</a>
-          {/* <h4 className={cn(styleUtils.appear, styleUtils['appear-third'], styles['team-section_h4'])}>We build products for <strong className={styles['team-section_highlight_h4']}>developers and designers.</strong> And those who aspire to become one.</h4> */}
+          <h4 className={cn(styleUtils.appear, styleUtils['appear-third'], styles['team-section_h4'])}>Chúng tôi là một tập thể gồm <strong className={styles['team-section_highlight_h4']}>những sinh viên tuyệt vời,</strong> luôn nỗ lực để tạo ra những sản phẩm thú vị. Chúng tôi luôn nổ lực không ngừng để phát triển bản thân và mong muốn có thể giúp mọi người khám phá cơ hội của bạn trong thế giới công nghệ”</h4>
         </div>
       </section>
       <section id="communitySection" className={styles['section_3']}>

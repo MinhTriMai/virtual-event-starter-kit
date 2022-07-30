@@ -151,7 +151,6 @@
   /* color: blanchedalmond; */
 }
 
-
 .base-card_card:hover {
   color: #fff;
   border-color: #8465cb;
@@ -189,7 +188,7 @@
 .team-section_h4 {
   font-weight: 400;
   text-transform: none;
-  max-width: 500px;
+  padding: 0 22%;
   justify-content: space-between;
     --flex: 1;
     --justify-content: center;
