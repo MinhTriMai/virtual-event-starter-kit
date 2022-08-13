@@ -65,7 +65,7 @@ export const NAVIGATION = [
     route: '/teams'
   },
   {
-    name: 'Jobs opening',
+    name: 'Job openings',
     route: '/jobs'
   },
   // {
