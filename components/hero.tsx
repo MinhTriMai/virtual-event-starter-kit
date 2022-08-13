@@ -60,7 +60,7 @@ export default function Hero() {
           <div style={{ minWidth: '300px' }}>
             <Image
               alt={'homescreen product demo'}
-              title={'home_screen_product_demo'}
+              title={'homescreen products'}
               src="/PixelTrueMockup.png"
               className={styles.image}
               loading="lazy"
@@ -96,7 +96,7 @@ export default function Hero() {
           <div style={{ minWidth: '300px', padding: '10px 0' }}>
             <Image
               alt={'homescreen mission of TAB'}
-              title={'home_screen_mission'}
+              title={'homescreen mission'}
               src="/counting_stars_tab.png"
               className={styles.image}
               loading="lazy"

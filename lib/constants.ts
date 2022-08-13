@@ -56,22 +56,22 @@ export const NAVIGATION = [
     name: 'Home',
     route: '/'
   },
-  {
-    name: 'Explore',
-    route: '/explore'
-  },
+  // {
+  //   name: 'Explore',
+  //   route: '/explore'
+  // },
   {
     name: 'Teams',
     route: '/teams'
   },
   {
-    name: 'Jobs',
+    name: 'Jobs opening',
     route: '/jobs'
   },
-  {
-    name: 'Docs',
-    route: 'https://docs.tabbook.vn'
-  },
+  // {
+  //   name: 'Docs',
+  //   route: 'https://docs.tabbook.vn'
+  // },
   {
     name: 'Blogs',
     route: 'https://tabbook.vn/blog'
