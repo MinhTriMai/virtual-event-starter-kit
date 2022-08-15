@@ -105,7 +105,7 @@ export default function Hero() {
             />
           </div>
           <a className={cn(styles.teamLink, styles.text_text_gradient)} href="/teams">Đội ngũ của TAB</a>
-          <h4 className={cn(styleUtils.appear, styleUtils['appear-third'], styles['team-section_h4'])}>Chúng tôi là một tập thể gồm <strong className={styles['team-section_highlight_h4']}>những sinh viên tuyệt vời,</strong> luôn nỗ lực để tạo ra những sản phẩm thú vị. Chúng tôi luôn nổ lực không ngừng để phát triển bản thân và mong muốn có thể giúp mọi người khám phá cơ hội của họ trong thế giới công nghệ</h4>
+          <h4 className={cn(styleUtils.appear, styleUtils['appear-third'], styles['team-section_h4'])}>Chúng tôi là một tập thể gồm những<strong className={styles['team-section_highlight_h4']}> sinh viên tuyệt vời,</strong> luôn nỗ lực để tạo ra những sản phẩm thú vị. Chúng tôi nổ lực không ngừng để phát triển bản thân với mong muốn cùng mọi người khám phá cơ hội trong <strong className={styles['team-section_highlight_h4']}>thế giới công nghệ!</strong></h4>
         </div>
       </section>
       <section id="communitySection" className={styles['section_3']}>

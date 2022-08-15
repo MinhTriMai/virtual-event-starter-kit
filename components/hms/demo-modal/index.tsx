@@ -18,7 +18,7 @@ const data = [
     roleName: 'q&a',
     link: 'https://qa.tabbook.vn',
     role: 'viewer',
-    desc: `Đây là diễn đàn hỏi đáp về định hướng nghề nghiệp công nghệ cho tất cả mọi người, mọi thứ cần biết và chuẩn bị đều có hỏi ở đây.`
+    desc: `Đây là diễn đàn hỏi đáp về định hướng nghề nghiệp công nghệ cho tất cả mọi người, mọi thứ cần biết và chuẩn bị cho một công việc trong lĩnh vực công nghệ đều có hỏi ở đây.`
   },
   // {
   //   name: 'Explore',

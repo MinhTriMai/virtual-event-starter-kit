@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-export const SITE_URL = 'https://tabbook.vn';
+export const SITE_URL = 'https://home.tabbook.vn';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
 export const TWITTER_USER_NAME = 'tabbook';
 export const BRAND_NAME = 'TABBOOK';
@@ -23,10 +23,10 @@ export const SITE_NAME = 'TABBOOK';
 export const META_DESCRIPTION =
   'Tabbook là một dự án của những sinh viên, chúng tôi hướng đến mục tiêu giúp mọi người khám phá được cơ hội của họ trong lĩnh vực công nghệ và tìm được định hướng trong sự nghiệp. Qua đó rèn luyện những kỹ năng cần thiết cho công việc tiềm năng mà họ đam mê trong lĩnh vực công nghệ.';
 export const SITE_DESCRIPTION =
-  'Một trải nghiệm trực tuyến tương tác của cộng đồng, miễn phí cho tất cả mọi người.';
+  'Một trải nghiệm trực tuyến tương tác dành cho cộng đồng, miễn phí cho tất cả mọi người.';
 export const DATE = 'Community';
-export const SHORT_DATE = 'Mar 15 - 9:00am PST';
-export const FULL_DATE = 'Mar 15th 9am Pacific Time (GMT-7)';
+export const SHORT_DATE = 'Sep 2nd - 9:00am PST';
+export const FULL_DATE = 'Sep 2nd 9am Pacific Time (GMT-7)';
 export const TWEET_TEXT = META_DESCRIPTION;
 export const COOKIE = 'user-id';
 
@@ -65,7 +65,7 @@ export const NAVIGATION = [
     route: '/teams'
   },
   {
-    name: 'Job openings',
+    name: 'Jobs',
     route: '/jobs'
   },
   // {
