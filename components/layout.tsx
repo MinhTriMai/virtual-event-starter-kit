@@ -63,8 +63,9 @@ export default function Layout({
               </Link>
             </div>
             <div className={styles.tabs}>
-              {NAVIGATION.map(({ name, route }) => (
+              {NAVIGATION.map(({ name, route, newTab }) => (
                 <a
+                  target={newTab ? '_blank' : '_self'}
                   key={name}
                   href={route}
                   className={cn(styles.tab, {
@@ -79,10 +80,10 @@ export default function Layout({
 
             {(hmsConfig.hmsIntegration && isLive && !disableCta.includes(activeRoute)) ||
               activeRoute === '/' && (
-              <div className={cn(styles['header-right'])}>
-                {activeRoute === '/' ? <DemoButton /> : <RoomCta />}
-              </div>
-            )}
+                <div className={cn(styles['header-right'])}>
+                  {activeRoute === '/' ? <DemoButton /> : <RoomCta />}
+                </div>
+              )}
           </header>
         )}
         {/* <ViewSource /> */}

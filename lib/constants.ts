@@ -74,7 +74,8 @@ export const NAVIGATION = [
   // },
   {
     name: 'Blogs',
-    route: 'https://tabbook.vn/blog'
+    route: 'https://tabbook.vn/blog',
+    newTab: true,
   }
 ];
 
