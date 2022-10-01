@@ -47,7 +47,6 @@ export default function Layout({
   const router = useRouter();
   const activeRoute = router.pathname;
   const disableCta = ['/', '/teams', '/explore', '/jobs'];
-  console.log('123', router.pathname);
   return (
     <>
       <div className={styles.background}>

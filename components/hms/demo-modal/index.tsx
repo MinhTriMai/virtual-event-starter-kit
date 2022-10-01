@@ -18,7 +18,7 @@ const data = [
     roleName: 'q&a',
     link: 'https://qa.tabbook.vn',
     role: 'viewer',
-    desc: `Đây là diễn đàn hỏi đáp về định hướng nghề nghiệp công nghệ cho tất cả mọi người, mọi thứ cần biết và chuẩn bị cho một công việc trong lĩnh vực công nghệ đều có hỏi ở đây.`
+    desc: `Đây là diễn đàn hỏi đáp về định hướng nghề nghiệp công nghệ cho tất cả mọi người, mọi thứ cần biết và chuẩn bị cho một công việc trong lĩnh vực công nghệ đều có thể hỏi đáp ở đây.`
   },
   // {
   //   name: 'Explore',
@@ -28,13 +28,13 @@ const data = [
   //   desc:
   //     'Sản phẩm này là một công cụ giúp bạn tìm thấy được những nghề nghiệp cụ thể nào phù hợp với bản thân, từ đó bạn có thể tìm hiểu thêm và dấn thân vào sự nghiệp tương lai của mình.'
   // },
-  // {
-  //   name: 'Docs',
-  //   roleName: 'docs',
-  //   link: 'https://docs.tabbook.vn',
-  //   role: 'viewer',
-  //   desc: `Đây được xem như cuốn Bách khoa toàn tập dành cho những ai muốn có được 1 công việc trong lĩnh vực công nghệ, mọi thứ cần biết và chuẩn bị đều có ở đây.`
-  // }
+  {
+    name: 'Docs',
+    roleName: 'docs',
+    link: 'https://docs.tabbook.vn',
+    role: 'viewer',
+    desc: `Đây được xem như cuốn Bách khoa toàn tập dành cho những ai muốn có được 1 công việc trong lĩnh vực công nghệ, mọi thứ cần biết và chuẩn bị đều có ở đây.`
+  }
 ];
 
 const DemoModal = () => {

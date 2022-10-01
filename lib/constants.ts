@@ -21,7 +21,7 @@ export const BRAND_NAME = 'TABBOOK';
 export const SITE_NAME_MULTILINE = ['TABBOOK', 'Community'];
 export const SITE_NAME = 'TABBOOK';
 export const META_DESCRIPTION =
-  'Tabbook là một dự án của những sinh viên, chúng tôi hướng đến mục tiêu giúp mọi người khám phá được cơ hội của họ trong lĩnh vực công nghệ và tìm được định hướng trong sự nghiệp. Qua đó rèn luyện những kỹ năng cần thiết cho công việc tiềm năng mà họ đam mê trong lĩnh vực công nghệ.';
+  'Tabbook là một dự án của những sinh viên hướng đến mục tiêu giúp mọi người khám phá được cơ hội của họ trong lĩnh vực công nghệ và tìm được định hướng, lộ trình phát triển trong sự nghiệp.';
 export const SITE_DESCRIPTION =
   'Một trải nghiệm trực tuyến tương tác dành cho cộng đồng, miễn phí cho tất cả mọi người.';
 export const DATE = 'Community';
@@ -68,12 +68,13 @@ export const NAVIGATION = [
     name: 'Jobs',
     route: '/jobs'
   },
-  // {
-  //   name: 'Docs',
-  //   route: 'https://docs.tabbook.vn'
-  // },
   {
-    name: 'Blogs',
+    name: 'Docs',
+    route: 'https://docs.tabbook.vn',
+    newTab: true,
+  },
+  {
+    name: 'Blog',
     route: 'https://tabbook.vn/blog',
     newTab: true,
   }
