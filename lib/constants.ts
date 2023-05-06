@@ -77,7 +77,13 @@ export const NAVIGATION = [
     name: 'Blog',
     route: 'https://tabbook.vn/blog',
     newTab: true,
+  },
+  {
+    name: 'Explore',
+    route: 'https://explore.tabbook.vn',
+    newTab: true,
   }
+
 ];
 
 export type TicketGenerationState = 'default' | 'loading';
