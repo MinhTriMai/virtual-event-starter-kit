@@ -60,10 +60,10 @@ export const NAVIGATION = [
   //   name: 'Explore',
   //   route: '/explore'
   // },
-  {
-    name: 'Teams',
-    route: '/teams'
-  },
+  // {
+  //   name: 'Teams',
+  //   route: '/teams'
+  // },
   {
     name: 'Jobs',
     route: '/jobs'
